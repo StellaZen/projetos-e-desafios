@@ -29,6 +29,31 @@
     }
 
     .cubo{
+        position: relative;
+    }
+
+    .sobreposicao{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        right: 0;
+        bottom: 0;
+        transform: translate(-50%,-50%);
+        opacity: 0;
+        transition: .5s;
+        background-image: url(images/icon-view.svg);
+        background-repeat: no-repeat;
+       
+        width: 50px;
+        height: 40px;
+    }
+
+    .cubo:hover .sobreposicao{
+        opacity: 1;
+    }
+
+    
+    .imagem{
         width: 250px;
         margin-top: 20px;
         border-radius: 15px;
