@@ -49,6 +49,7 @@
         height: 40px;
 
         transition: .5s;
+        transform: translate(-10%,-10%);
         
     }
 
