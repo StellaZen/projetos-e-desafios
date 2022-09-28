@@ -29,7 +29,7 @@
     }
 
     .cubo{
-        background-image: url(images/image-equilibrium.jpg);
+    
         width: 255px;
         height: 255px;
         background-size: contain;
@@ -42,14 +42,14 @@
         left: 50%;
         right: 0;
         bottom: 0;
-        transform: translate(-50%,-50%);
         opacity: 0;
-        transition: .5s;
         background-image: url(images/icon-view.svg);
         background-repeat: no-repeat;
-       
         width: 50px;
         height: 40px;
+
+        transition: .5s;
+        
     }
 
     .cubo:hover .sobreposicao{
@@ -64,9 +64,6 @@
         border-radius: 12px;
     }
 
-    .cubo:hover{
-        background-image: url(images/icon-view.svg);
-    }
 
     h1{
         text-align: left;
