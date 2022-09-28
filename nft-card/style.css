@@ -30,10 +30,12 @@
 
     .cubo{
     
-        width: 255px;
-        height: 255px;
+        width: 257px;
+        height: 257px;
         background-size: contain;
         position: relative;
+        margin-bottom: 40px;
+    
     }
 
     .sobreposicao{
@@ -59,7 +61,7 @@
 
     
     .imagem{
-        width: 250px;
+        width: 255px;
         margin-top: 20px;
         margin-left: 22px;
         border-radius: 12px;
