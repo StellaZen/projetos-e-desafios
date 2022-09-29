@@ -93,6 +93,9 @@
     }
 
     hr{
+       border: none;
+        border-top: 1px solid gray;
+        opacity: 0.2px;
         width: 250px;
       }
 
@@ -117,7 +120,5 @@
     footer a {
         color: rgb(88, 115, 153);
     }
-
-    /*jeito certo */
 
    

@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+:root{
+    --soft-blue: hsl(215, 51%, 70%);
+    --cyan: hsl(178, 100%, 50%);
+    --azul-escuro-main: hsl(217, 54%, 11%);
+    --azul-escuro-card: hsl(216, 50%, 16%);
+    --azul-escuro-linha: hsl(215, 32%, 27%);
+    --branco: hsl(0, 0%, 100%);
+}
+
+html,main{
+    font-family:'Outfit', sans-serif;
+    font-size: 18px;
+    background-color: var(--azul-escuro-main);
+    color: var(--soft-blue);
+
+    width: 98vw;
+    height: 94vh;
+    position: relative;
+}
+
+.conteiner{
+    background-color: var(--azul-escuro-card);
+    width: 300px;
+
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.212);
+
+    display: flex;
+    flex-direction: column;
+    
+
+    position: absolute;
+    top:50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+    
+   
+}
+
+.cubo, .sobreposicao{
+    width: 300px;
+    height: 300px;
+    border-radius: 8px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cubo{
+    background-image: url(images/image-equilibrium.jpg);
+    background-size: contain;
+}
+
+.sobreposicao{
+    background-color: var(--cyan);
+    background-image: url(images/icon-view.svg);
+    opacity: 0;
+    cursor: pointer;
+    transition: opacity 0.2s ;
+}
+
+.sobreposicao:hover{
+    opacity: 0.6;
+}
+
+
+h1{
+    text-align: left;
+    font-size: 1.5em;
+    color: var(--branco);
+}
+
+h1:hover, .nome:hover{
+    color: var(--cyan);
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.paragrafos{
+    display: flex;
+    justify-content: space-between;
+}
+
+.esquerda{
+    color: var(--cyan);
+    font-weight: 600;
+}
+
+.direita{
+    color: var(--soft-blue);
+    font-weight: 400;
+}
+
+hr{
+    width: 300px;
+    border: none;
+    border-top: 1px solid hsl(215, 32%, 27%);
+    opacity: 0.2px;
+}
+
+.criado-por > p{
+    font-size: 16px;
+    color: var(--soft-blue);
+}
+
+.nome{
+    color: var(--branco);
+}
+
+.img-avatar{
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-top: 10px; 
+    margin-right: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.733);
+    border-radius: 50%;
+}
+
+footer > p{
+    text-align: center;
+    font-size: 12px;
+    color: var(--azul-escuro-linha);
+}
+
+a{
+    color: var(--soft-blue);
+}
