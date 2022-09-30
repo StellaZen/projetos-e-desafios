@@ -30,7 +30,7 @@ html,body{
 }
 
 .conteiner{
-    width: 320px;
+    width: 300px;
     background-color: var(--white);
     border-radius:  8px;
 
