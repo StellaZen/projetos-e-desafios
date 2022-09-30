@@ -30,7 +30,7 @@ html,body{
 }
 
 .conteiner{
-    width: 360px;
+    width: 320px;
     background-color: var(--white);
     border-radius:  8px;
 
@@ -50,7 +50,7 @@ html,body{
     border-radius: 8px 8px 0px 0px;
     
 
-    height: 250px;
+    height: 220px;
 }
 
 .texto{
