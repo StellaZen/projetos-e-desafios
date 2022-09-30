@@ -124,7 +124,7 @@ h2{
 @media screen and (min-width:600px) {
     .conteiner{
         display: block;
-        width: 600px;
+        width: 560px;
         height: 420px;
         border-radius: 8px;
         margin-bottom: none;
