@@ -13,7 +13,7 @@
 
 html,main{
     font-family:'Outfit', sans-serif;
-    font-size: 18px;
+    font-size: 1rem /*16px*/;
     background-color: var(--azul-escuro-main);
     color: var(--soft-blue);
 
@@ -27,7 +27,7 @@ html,main{
     width: 300px;
 
     padding: 25px;
-    border-radius: 8px;
+    border-radius: 0.5rem /*8px*/;
     box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.212);
 
     display: flex;
@@ -46,7 +46,7 @@ html,main{
 .cubo, .sobreposicao{
     width: 300px;
     height: 300px;
-    border-radius: 8px;
+    border-radius: 0.5rem /*8px*/;
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -74,6 +74,8 @@ h1{
     font-size: 1.5em;
     color: var(--branco);
 }
+
+
 
 h1:hover, .nome:hover{
     color: var(--cyan);
@@ -104,7 +106,7 @@ hr{
 }
 
 .criado-por > p{
-    font-size: 16px;
+    font-size: 0.9375rem /*15px*/;
     color: var(--soft-blue);
 }
 
@@ -124,7 +126,7 @@ hr{
 
 footer > p{
     text-align: center;
-    font-size: 12px;
+    font-size: 0.625rem /*10px*/;
     color: var(--azul-escuro-linha);
 }
 
