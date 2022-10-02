@@ -43,14 +43,11 @@ html,body{
 }
 
 .imagem{
-    background-image: url(images/image-product-mobile.jpg);
-    background-size: cover;
-    background-position: center center;
-
+    width: 300px ;
     border-radius: 8px 8px 0px 0px;
-    
-
     height: 220px;
+
+    transition: 0.5s ease;
 }
 
 .texto{
@@ -135,11 +132,7 @@ h2{
     }
 
     .imagem{
-        background-image: url(images/image-product-desktop.jpg);
-        background-position: center center;
-        background-size: cover;
-        background-repeat: no-repeat;
-
+     
         border-radius: 8px 0 0 8px;
 
         height: 420px;
