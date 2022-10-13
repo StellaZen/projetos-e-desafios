@@ -22,22 +22,23 @@
     box-sizing: border-box;
 }
 
-body{
-
+body,html{
+    width: 97vw;
+    height: 100vh;
     background-color: var(--very-light-gray);
     position: relative;
 }
 
+
 .cards{
     width: 300px;
-    margin-bottom: 30px;
     display: flex;
     flex-direction: column;
+
     position: absolute;
     top: 50%;
     left: 50%;
-
-    transform: translate(-50%, +30px);  
+    transform: translate(-50%, -35%);
 }
 
 .card-1{
@@ -53,11 +54,11 @@ body{
 .card-3{
     background-color: var(--very-dark-cyan);
     border-radius: 0 0 10px 10px;
-    margin-bottom: 30px;
 }
 
 .card-1,.card-2,.card-3{
-    padding: 30px;
+    padding: 35px;
+    height: 350px;
 }
 
 h1{
@@ -70,8 +71,8 @@ h1{
 p{
     font-family: var(--fonte-1);
     color: var(--transparent-white);
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     font-size: 15px;
 }
 
@@ -127,5 +128,7 @@ p{
     border: 2px solid white;
 }
 
-
-
+footer{
+    bottom: 0;
+    position: relative;
+}

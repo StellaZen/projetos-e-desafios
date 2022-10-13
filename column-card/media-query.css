@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+   
+    transform: translate(-50%,-50%);
+   
+}
+
+.card-1,.card-2,.card-3{
+    width:400px;
+    height: 470px;
+}
+
+.card-1{
+    border-radius: 10px 0 0 10px;
+    line-height: 25px;
+}
+
+.card-2{
+    line-height: 25px;
+}
+.card-3{
+    border-radius: 0 10px 10px 0;
+    margin-bottom: none;
+    line-height: 22px;
+}
+
+.botao{
+    margin-top: 70px;
+}
