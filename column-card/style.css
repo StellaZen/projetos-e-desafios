@@ -43,7 +43,7 @@ body,html{
 
 .card-1{
     background-color: var(--orange);
-    border-radius: 10px 10px 0 0;
+    border-radius: 8px 8px 0 0;
   
 }
 
@@ -53,12 +53,12 @@ body,html{
 
 .card-3{
     background-color: var(--very-dark-cyan);
-    border-radius: 0 0 10px 10px;
+    border-radius: 0 0 8px 8px;
 }
 
 .card-1,.card-2,.card-3{
     padding: 35px;
-    height: 350px;
+    height: 380px;
 }
 
 h1{
@@ -80,6 +80,7 @@ p{
     background-color: white;
     width: 130px;
     padding: 10px;
+    
     border-radius: 20px;
     text-align: center;
 }
@@ -129,6 +130,10 @@ p{
 }
 
 footer{
-    bottom: 0;
-    position: relative;
+   position: absolute;
+   right: 0;
+   left: 0;
+   bottom: 0;
+   padding: 1rem;
+   text-align: center;
 }
