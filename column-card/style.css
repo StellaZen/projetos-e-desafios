@@ -22,7 +22,7 @@
     box-sizing: border-box;
 }
 
-body,html{
+body,main,html{
     width: 97vw;
     height: 100vh;
     background-color: var(--very-light-gray);
