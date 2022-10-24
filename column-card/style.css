@@ -24,7 +24,7 @@
 
 body,main,html{
     width: 96vw;
-    height: 150vh;
+    height: 190vh;
     background-color: var(--very-light-gray);
     position: relative;
 }
@@ -34,12 +34,15 @@ body,main,html{
     width: 18.75rem /*300px*/;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
+    align-content: center;
 
     position: absolute;
-    top: 50%;
+    top:50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%,-50%);
+    
 }
 
 .card-1{
