@@ -1,0 +1,95 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+:root{
+    font-family:'Overpass', sans-serif;
+    --orange: hsl(25, 97%, 53%);
+    --white: hsl(0, 0%, 100%);
+    --lightGray: hsl(217, 12%, 63%);
+    --mediumGray: hsl(216, 12%, 54%);
+    --darkBlue: hsl(213, 19%, 18%);
+    --veryDarkBlue: hsl(216, 12%, 8%);
+}
+
+body,html,main{
+    background-color: var(--veryDarkBlue);
+    width: 98vw;
+    height: 96vh;
+    position: relative;
+}
+
+.conteiner{
+    width: 400px;
+    background-color: var(--darkBlue);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 30px;
+    border-radius: 15px;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.star{
+    background-color: hsl(212, 19%, 29%);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding-top: 12px;
+    padding-left: 12px;
+}
+
+h1{
+    color: var(--white);
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+
+p{
+    color: var(--lightGray);
+    margin-bottom: 25px;
+    font-size: 15px;
+}
+
+.form_label{
+    display: inline-block;
+    padding-top: 14px;
+    padding-left: 14px;
+    background-color:hsl(212, 19%, 29%);
+    color: var(--mediumGray);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.form_label:hover{
+    background-color: orange;
+}
+
+input{
+    display: none;
+}
+
+button{
+    width: 345px;
+    margin-top:20px;
+    height: 40px;
+    border: none;
+    border-radius: 15px;
+    background-color: var(--orange);
+    font-family: var(--font-family);
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--white);
+    letter-spacing: 3px;
+}
