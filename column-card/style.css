@@ -24,27 +24,30 @@
 
 body,main,html{
     width: 96vw;
-    height: 150vh;
+    height: 190vh;
     background-color: var(--very-light-gray);
     position: relative;
 }
 
 
 .cards{
-    width: 300px;
+    width: 18.75rem /*300px*/;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
+    align-content: center;
 
     position: absolute;
-    top: 50%;
+    top:50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%,-50%);
+    
 }
 
 .card-1{
     background-color: var(--orange);
-    border-radius: 8px 8px 0 0;
+    border-radius: 0.5rem 0.5rem 0 0 /*8px*/;
   
 }
 
@@ -54,35 +57,35 @@ body,main,html{
 
 .card-3{
     background-color: var(--very-dark-cyan);
-    border-radius: 0 0 8px 8px;
+    border-radius: 0 0 0.5rem 0.5rem /*8px*/;
 }
 
 .card-1,.card-2,.card-3{
     padding: 35px;
-    height: 380px;
+    height: 23.75rem /*380px*/;
 }
 
 h1{
     font-family: var(--fonte-titulo);
     color: white;
-    padding-top: 20px;
+    padding-top: 1.25rem /*20px*/;
     text-transform: uppercase;
 }
 
 p{
     font-family: var(--fonte-1);
     color: var(--transparent-white);
-    padding-top: 20px;
-    padding-bottom: 30px;
-    font-size: 15px;
+    padding-top: 1.25rem /*20px*/;
+    padding-bottom: 1.875rem /*30px*/;
+    font-size: 0.9375rem /*15*/;
 }
 
 .botao{
     background-color: white;
-    width: 130px;
-    padding: 12px;
+    width: 8.125rem /*130px*/;
+    padding: 0.75rem /*12*/;
     border: none;
-    border-radius: 20px;
+    border-radius: 1.25rem /*20px*/;
     text-align: center;
     font-weight: bold;
     
@@ -108,7 +111,7 @@ p{
 footer > p {
     color: gray;
     text-align: center;
-    font-size: 10px;
+    font-size: 0.625rem /*10px*/;
 }
 
 footer a {
