@@ -7,10 +7,11 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
   <link rel="stylesheet" href="style.css">
+
+  <script src="app.js"></script>
   
   <title>Frontend Mentor | Interactive rating component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
@@ -31,16 +32,18 @@
       </p>
 
       <form action="">
-        <input type="radio" name="rating" id="score1" value="1">
-        <label for="score1" class="form_label">1</label>
-        <input type="radio" name="rating" id="score2" value="2">
-        <label for="score2" class="form_label">2</label>
-        <input type="radio" name="rating" id="score3" value="3">
-        <label for="score3" class="form_label">3</label>
-        <input type="radio" name="rating" id="score4" value="4">
-        <label for="score4" class="form_label">4</label>
-        <input type="radio" name="rating" id="score5" value="5">
-        <label for="score5" class="form_label">5</label>
+        <fieldset>
+          <input type="radio" name="rating" id="score1" value="1">
+          <label for="score1" class="form_label" onclick="changeColor()">1</label>
+          <input type="radio" name="rating" id="score2" value="2">
+          <label for="score2" class="form_label">2</label>
+          <input type="radio" name="rating" id="score3" value="3">
+          <label for="score3" class="form_label">3</label>
+          <input type="radio" name="rating" id="score4" value="4">
+          <label for="score4" class="form_label">4</label>
+          <input type="radio" name="rating" id="score5" value="5">
+          <label for="score5" class="form_label">5</label>
+        </fieldset>
         <div class="submit"><button type="submit">Submit</button></div>
       </form>
     </div>

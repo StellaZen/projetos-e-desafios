@@ -25,7 +25,7 @@ body,html,main{
 }
 
 .conteiner{
-    width: 400px;
+    max-width: 350px;
     background-color: var(--darkBlue);
     display: flex;
     flex-direction: column;
@@ -61,19 +61,26 @@ p{
     font-size: 15px;
 }
 
+fieldset{
+    display: flex;
+    border: none;
+    justify-content: space-around;
+}
+
 .form_label{
-    display: inline-block;
     padding-top: 14px;
-    padding-left: 14px;
-    background-color:hsl(212, 19%, 29%);
-    color: var(--mediumGray);
-    width: 40px;
-    height: 40px;
+    padding-left: 17px;
+    background-color:hsl(211, 20%, 22%);
+    color: var(--lightGray);
+    width: 44px;
+    height: 44px;
     border-radius: 50%;
 }
 
 .form_label:hover{
-    background-color: orange;
+    background-color: var(--orange);
+    cursor: pointer;
+    color: var(--white);
 }
 
 input{
@@ -81,15 +88,21 @@ input{
 }
 
 button{
-    width: 345px;
+    width: 290px;
     margin-top:20px;
-    height: 40px;
+    height: 45px;
     border: none;
-    border-radius: 15px;
+    border-radius: 25px;
     background-color: var(--orange);
     font-family: var(--font-family);
     font-weight: 700;
     text-transform: uppercase;
     color: var(--white);
     letter-spacing: 3px;
+}
+
+button:hover{
+    background-color: var(--white);
+    color: var(--orange);
+    cursor: pointer;
 }
