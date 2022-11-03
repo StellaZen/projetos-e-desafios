@@ -24,8 +24,9 @@ body,html,main{
     position: relative;
 }
 
-.conteiner{
+.conteiner {
     max-width: 350px;
+    height: 420px;
     background-color: var(--darkBlue);
     display: flex;
     flex-direction: column;
@@ -105,4 +106,55 @@ button:hover{
     background-color: var(--white);
     color: var(--orange);
     cursor: pointer;
+}
+/* Conteiner 2 */
+
+.conteiner2{
+    width: 350px;
+    height: 420px;
+    background-color: var(--darkBlue);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.tablet{
+    width: 180px;
+    margin: auto;
+}
+
+.selected{
+    width: 200px;
+    background-color: hsl(214, 18%, 23%);
+    padding: 7px;
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 20px;
+    color: hsl(25, 95%, 60%);
+}
+
+.conteiner2{
+    display: none;
+}
+
+/*.conteiner{
+    display: none;
+}*/
+
+/*footer*/
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+.attribution a { 
+    color: hsl(25, 79%, 62%); 
 }

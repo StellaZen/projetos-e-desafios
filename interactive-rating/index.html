@@ -12,10 +12,6 @@
   
   <title>Frontend Mentor | Interactive rating component</title>
 
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
 
@@ -23,7 +19,7 @@
     <div class="conteiner">
       <!-- Star Icon -->
       <div class="star">
-        <svg width="17" height="16" xmlns="http://www.w3.org/2000/svg"><path d="m9.067.43 1.99 4.031c.112.228.33.386.58.422l4.45.647a.772.772 0 0 1 .427 1.316l-3.22 3.138a.773.773 0 0 0-.222.683l.76 4.431a.772.772 0 0 1-1.12.813l-3.98-2.092a.773.773 0 0 0-.718 0l-3.98 2.092a.772.772 0 0 1-1.119-.813l.76-4.431a.77.77 0 0 0-.222-.683L.233 6.846A.772.772 0 0 1 .661 5.53l4.449-.647a.772.772 0 0 0 .58-.422L7.68.43a.774.774 0 0 1 1.387 0Z" fill="#FC7614"/></svg>
+      <img src="images/icon-star.svg" alt="estrela de cinco pontas amarela">
       </div>
       <h1>How did we do?</h1>
       <p>
@@ -34,7 +30,7 @@
       <form action="">
         <fieldset>
           <input type="radio" name="rating" id="score1" value="1">
-          <label for="score1" class="form_label" >1</label>
+          <label for="score1" class="form_label" id="label1" >1</label>
           <input type="radio" name="rating" id="score2" value="2">
           <label for="score2" class="form_label">2</label>
           <input type="radio" name="rating" id="score3" value="3">
@@ -44,28 +40,33 @@
           <input type="radio" name="rating" id="score5" value="5">
           <label for="score5" class="form_label">5</label>
         </fieldset>
-        <div class="submit"><button type="submit">Submit</button></div>
+        <div class="submit" id="submit"><button type="submit">Submit</button></div>
       </form>
     </div>
   </main>
 
   <!-- Rating state end -->
 
-  <!-- Thank you state start
+  <!-- Thank you state start -->
 
-  <div id="thank">
-    You selected -- Add rating here -- out of 5
-    Thank you!
-    We appreciate you taking the time to give a rating. If you ever need more support,
-    dont’ hesitate to get in touch!
+  <div id="conteiner2" class="conteiner2">
+    <img src="images/illustration-thank-you.svg" class="tablet" alt="tablet cinza com nota e cartão laranjados">
+    <div class="selected">
+      You selected <span id="rated"></span> out of 5
+    </div>
+    <h1>Thank you!</h1>
+    <p>
+      We appreciate you taking the time to give a rating. If you ever need more support,
+      don’t hesitate to get in touch!
+    </p>
   </div>
 
-  Thank you state end -->
+  <!--Thank you state end --> 
 
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Stella Zen</a>.
   </div>
 </body>
 </html>
