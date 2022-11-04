@@ -37,7 +37,7 @@ body,html,main{
 }
 
 .star{
-    background-color: hsl(212, 19%, 29%);
+    background-color: hsl(213, 19%, 21%);
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -63,27 +63,24 @@ fieldset{
     justify-content: space-around;
 }
 
-.form_label{
-    padding-top: 14px;
-    padding-left: 17px;
-    background-color:hsl(211, 20%, 22%);
-    color: var(--lightGray);
-    width: 44px;
-    height: 44px;
+.rating-button{
+    background-color: hsl(213, 19%, 21%);
     border-radius: 50%;
+    border: none;
+    width: 45px;
+    height: 45px;
+    color: var(--mediumGray);
+    padding-left: 16px;
+    padding-top: 16px;
 }
 
-.form_label:hover{
+.rating-button:hover{
     background-color: var(--orange);
+    color:white;
     cursor: pointer;
-    color: var(--white);
 }
 
-input{
-    display: none;
-}
-
-button{
+.submit{
     width: 290px;
     margin-top:20px;
     height: 45px;
@@ -97,7 +94,7 @@ button{
     letter-spacing: 3px;
 }
 
-button:hover{
+.submit:hover{
     background-color: var(--white);
     color: var(--orange);
     cursor: pointer;

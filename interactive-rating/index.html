@@ -27,20 +27,15 @@
         to help us improve our offering!
       </p>
 
-      <form action="">
-        <fieldset>
-          <input type="radio" name="rating" id="score1" value="1">
-          <label for="score1" class="form_label" id="label1" >1</label>
-          <input type="radio" name="rating" id="score2" value="2">
-          <label for="score2" class="form_label">2</label>
-          <input type="radio" name="rating" id="score3" value="3">
-          <label for="score3" class="form_label">3</label>
-          <input type="radio" name="rating" id="score4" value="4">
-          <label for="score4" class="form_label">4</label>
-          <input type="radio" name="rating" id="score5" value="5">
-          <label for="score5" class="form_label">5</label>
+      <form>
+        <fieldset class="rating-form">
+          <div class="rating-button" onclick="rate(0)"><p>1</p></div>
+          <div class="rating-button" onclick="rate(1)"><p>2</p></div>
+          <div class="rating-button" onclick="rate(2)"><p>3</p></div>
+          <div class="rating-button" onclick="rate(3)"><p>4</p></div>
+          <div class="rating-button" onclick="rate(4)"><p>5</p></div>
         </fieldset>
-        <div class="submit" id="submit"><button type="submit" onclick="trocar()">Submit</button></div>
+        <button type="submit" class="submit" id="submit" onclick="trocar()">Submit</button>
       </form>
     </div>
   </main>
@@ -51,8 +46,7 @@
 
   <div id="conteiner2" class="conteiner2">
     <img src="images/illustration-thank-you.svg" class="tablet" alt="tablet cinza com nota e cartão laranjados">
-    <div class="selected">
-      You selected <span id="rated"></span> out of 5
+    <div class="rating-selection">
     </div>
     <h1>Thank you!</h1>
     <p>
