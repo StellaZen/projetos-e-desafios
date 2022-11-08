@@ -1,7 +1,12 @@
-var cor = document.querySelectorAll(".rating-button");
-addEventListener ("click",cor)
+var botao = document.getElementById("submit")
+botao.addEventListener("click",trocar)
 
-function mudaCor(){
-    cor.style.background = ("gray");
+
+var conteiner1 = document.getElementById("conteiner")
+var conteiner2 = document.getElementById("conteiner2")
+
+function trocar(){
+    conteiner1.style.display = "none"
+    conteiner2.style.display = "block"
 }
 

@@ -8,7 +8,7 @@
 
   <link rel="stylesheet" href="style.css">
 
-  <script src="app.js"></script>
+  
   
   <title>Frontend Mentor | Interactive rating component</title>
 
@@ -29,11 +29,16 @@
 
       <form>
         <fieldset class="rating-form">
-          <div class="rating-button" onclick="mudaCor()"><p>1</p></div>
-          <div class="rating-button" onclick="mudaCor()"><p>2</p></div>
-          <div class="rating-button" onclick="mudaCor()"><p>3</p></div>
-          <div class="rating-button" onclick="mudaCor()"><p>4</p></div>
-          <div class="rating-button" onclick="mudaCor()"><p>5</p></div>
+         <input type="radio" name="num" id="num1">
+         <label for="num1" class="num">1</label>
+         <input type="radio" name="num" id="num2">
+         <label for="num2" class="num">2</label>
+         <input type="radio" name="num" id="num3">
+         <label for="num3" class="num">3</label>
+         <input type="radio" name="num" id="num4">
+         <label for="num4" class="num">4</label>
+         <input type="radio" name="num" id="num5">
+         <label for="num5" class="num">5</label>
         </fieldset>
         <button type="submit" class="submit" id="submit" onclick="trocar()">Submit</button>
       </form>
@@ -62,5 +67,7 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Stella Zen</a>.
   </div>
+
+  <script src="app.js"></script>
 </body>
 </html>
