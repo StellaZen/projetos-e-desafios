@@ -34,7 +34,7 @@ body,html,main{
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
-    display: block;
+    
 }
 
 .star{
@@ -112,8 +112,6 @@ label:hover{
     padding: 30px;
     border-radius: 15px;
     text-align: center;
-    display: none;
-
     position: absolute;
     left: 50%;
     top: 50%;

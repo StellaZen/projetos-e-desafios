@@ -29,18 +29,18 @@
 
       <form>
         <fieldset class="rating-form">
-         <input type="radio" name="num" id="num1">
-         <label for="num1" class="num">1</label>
-         <input type="radio" name="num" id="num2">
-         <label for="num2" class="num">2</label>
-         <input type="radio" name="num" id="num3">
-         <label for="num3" class="num">3</label>
-         <input type="radio" name="num" id="num4">
-         <label for="num4" class="num">4</label>
-         <input type="radio" name="num" id="num5">
-         <label for="num5" class="num">5</label>
+         <input type="radio" name="num" id="num1" oninput="numero()">
+         <label for="num1" class="num" id="label1">1</label>
+         <input type="radio" name="num" id="num2" oninput="numero()">
+         <label for="num2" class="num" id="label2">2</label>
+         <input type="radio" name="num" id="num3" oninput="numero()">
+         <label for="num3" class="num" id="label3">3</label>
+         <input type="radio" name="num" id="num4" oninput="numero()">
+         <label for="num4" class="num" id="label4">4</label>
+         <input type="radio" name="num" id="num5" oninput="numero()">
+         <label for="num5" class="num" id="label5">5</label>
         </fieldset>
-        <button type="submit" class="submit" id="submit" onclick="trocar()">Submit</button>
+        <button type="submit" class="submit" id="submit">Submit</button>
       </form>
     </div>
   </main>
@@ -49,10 +49,11 @@
 
   <!-- Thank you state start -->
 
-  <div id="conteiner2" class="conteiner2">
+  <div id="conteiner2" class="conteiner2" hidden>
     <img src="images/illustration-thank-you.svg" class="tablet" alt="tablet cinza com nota e cartão laranjados">
     <div class="rating-selection">
     </div>
+    <p class="selected">You selected <span id="selected"></span> out of 5</p>
     <h1>Thank you!</h1>
     <p>
       We appreciate you taking the time to give a rating. If you ever need more support,
