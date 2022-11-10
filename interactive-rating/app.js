@@ -1,5 +1,6 @@
 var botao = document.getElementById("submit");
-botao.addEventListener("click",function(){
+botao.addEventListener("click",function(e){
+    e.preventDefault();
     var conteiner1 = document.getElementById("conteiner");
     var conteiner2 = document.getElementById("conteiner2");
         conteiner1.hidden = true;
