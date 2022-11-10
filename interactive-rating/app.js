@@ -16,10 +16,11 @@ function numero(){
     var label5 = document.getElementById("label5");
 
     var num = document.getElementsByName("num");
+    var selected = document.getElementById("selected");
     var numeroSelecionado = '';
+    
     if(num[0].checked){
         label1.style.backgroundColor = "lightgray";
-    
         numeroSelecionado = '1';   
     }else if(num[1].checked){
         label2.style.backgroundColor = "lightgray";
@@ -35,7 +36,7 @@ function numero(){
         numeroSelecionado = '5';
     }
 
-    num.innerHTML = numeroSelecionado;
+    selected.innerHTML = numeroSelecionado;
 }
 
 
