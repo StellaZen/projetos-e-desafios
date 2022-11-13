@@ -1,12 +1,12 @@
-var botao = document.getElementsById("botao");
-var nome = document.getElementsByClassName(".nome");
-var icons = document.getElementsByClassName(".icons");
+var botao = document.getElementById("botao");
+var nome = document.getElementById("nome")
+var icons = document.getElementById("icons");
 botao.addEventListener("click",muda);
-function muda(){
-    nome.style.display= "none"
-    icons.style.display= "flex"
+function muda(e){
+    e.preventDefault();
 
-    alert("oi")
+    nome.style.display = "none";
+    icons.style.display = "flex";
 }
 
 

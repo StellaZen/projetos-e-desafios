@@ -7,7 +7,8 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
   <link rel="stylesheet" href="style.css">
-  
+  <script src="app.js" defer></script>
+
   <title>Frontend Mentor | Article preview component</title>
 
 </head>
@@ -31,7 +32,7 @@
       </p>
       
       <!--nome e botão-->
-      <div class="nome">
+      <div class="nome" id="nome">
         <img class="michele-foto" src="images/avatar-michelle.jpg" alt="Michele Appleton">
        
         <div class="michele-nome">
@@ -44,12 +45,12 @@
       </div>
 
       <!--icones-->
-      <div class="icons">
+      <div class="icons" id="icons">
         <p>share</p>
         <img class="icon" src="images/icon-facebook.svg" alt="icone facebook">
         <img class="icon" src="images/icon-twitter.svg" alt="icone twitter">
         <img class="icon" src="images/icon-pinterest.svg" alt="icone pinterest">
-        <img class="share2" src="images/icon-share.svg" alt="">
+        <div class="share2"><!--share 2--></div>
 
       </div>
 
@@ -60,8 +61,6 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="https://github.com/StellaZen/" target="_blank">Stella Zen</a>.
   </div>
-
-<script src="app.js"></script>
 
 </body>
 </html>

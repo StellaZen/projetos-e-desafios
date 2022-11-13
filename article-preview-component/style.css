@@ -75,7 +75,7 @@ h1{
     display: flex;
     justify-content: flex-start;
     margin-left: 45px;
-    
+    /* display: none; */
 }
 
 .michele-foto{
@@ -117,19 +117,21 @@ h1{
     border: 8px solid var(--lightGrayishBlue);
     border-radius: 50%;
     margin-top: 15px;
-    margin-left: 70px;
+    margin-left: 87px;
 
     cursor: pointer;
 
+
 }
 
-/* icones conteiner 2*/
+/* icones escondidos */
 
 .icons{
     width: 350px;
     height: 64px;
     display: flex;
     flex-direction: row;
+    
     justify-content: space-around;
     background-color: var(--veryDarkGrayishBlue);
     border-radius: 0 0 15px 15px;
@@ -151,12 +153,18 @@ h1{
 }
 
 .share2{
+    background-image: url(images/icon-share.svg);
+    background-color: var(--lightGrayishBlue);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
     width: 35px;
     height: 35px;
     border: 8px solid var(--lightGrayishBlue);
     border-radius: 50%;
-    
+    margin-bottom: 20px;
 
+    align-self: center;
 }
 
 
