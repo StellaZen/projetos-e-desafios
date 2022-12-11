@@ -184,17 +184,22 @@ h1{
 }
 
 @media screen and (min-width: 700px) {
+    .desktop{
+        display: flex;
+        flex-direction:row;
+    }
+
     .conteiner{
-        display: block;
+        display: flex;
+        flex-direction: column;
         width: 750px;
         height: 300px;
     }
     .imagem{
         float: left;
         height: 300px;
-        width: 300px;
+        width: 600px;
         border-radius: 15px 0 0 15px;
-        background-position: top left;
     }
 
     h1{
